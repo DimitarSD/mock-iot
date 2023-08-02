@@ -1,1 +1,278 @@
-
+{
+    "devices": [
+        {
+            "id": 1,
+            "room": "Living Room",
+            "type": "Light",
+            "state": {
+                "status": "ON",
+                "brightness": 80
+            }
+        },
+        {
+            "id": 2,
+            "room": "Kitchen",
+            "type": "Light",
+            "state": {
+                "status": "OFF",
+                "brightness": 0
+            }
+        },
+        {
+            "id": 3,
+            "room": "Bedroom",
+            "type": "Light",
+            "state": {
+                "status": "ON",
+                "brightness": 60
+            }
+        },
+        {
+            "id": 4,
+            "room": "Bathroom",
+            "type": "Light",
+            "state": {
+                "status": "ON",
+                "brightness": 100
+            }
+        },
+        {
+            "id": 5,
+            "room": "Garage",
+            "type": "Light",
+            "state": {
+                "status": "OFF",
+                "brightness": 0
+            }
+        },
+        {
+            "id": 6,
+            "room": "Living Room",
+            "type": "Thermostat",
+            "state": {
+                "temperature": 72,
+                "mode": "COOL"
+            }
+        },
+        {
+            "id": 7,
+            "room": "Kitchen",
+            "type": "Thermostat",
+            "state": {
+                "temperature": 75,
+                "mode": "HEAT"
+            }
+        },
+        {
+            "id": 8,
+            "room": "Bedroom",
+            "type": "Thermostat",
+            "state": {
+                "temperature": 68,
+                "mode": "COOL"
+            }
+        },
+        {
+            "id": 9,
+            "room": "Bathroom",
+            "type": "Thermostat",
+            "state": {
+                "temperature": 70,
+                "mode": "HEAT"
+            }
+        },
+        {
+            "id": 10,
+            "room": "Garage",
+            "type": "Thermostat",
+            "state": {
+                "temperature": 60,
+                "mode": "COOL"
+            }
+        },
+        {
+            "id": 11,
+            "room": "Front Door",
+            "type": "Security Camera",
+            "state": {
+                "status": "ON",
+                "lastMotionDetected": "2023-08-01T14:30:00Z"
+            }
+        },
+        {
+            "id": 12,
+            "room": "Back Door",
+            "type": "Security Camera",
+            "state": {
+                "status": "OFF",
+                "lastMotionDetected": null
+            }
+        },
+        {
+            "id": 13,
+            "room": "Garage",
+            "type": "Security Camera",
+            "state": {
+                "status": "ON",
+                "lastMotionDetected": "2023-08-02T08:45:00Z"
+            }
+        },
+        {
+            "id": 14,
+            "room": "Front Door",
+            "type": "Door",
+            "state": {
+                "status": "CLOSED",
+                "lastOpened": "2023-08-01T12:45:00Z"
+            }
+        },
+        {
+            "id": 15,
+            "room": "Back Door",
+            "type": "Door",
+            "state": {
+                "status": "OPEN",
+                "lastOpened": "2023-08-02T07:30:00Z"
+            }
+        },
+        {
+            "id": 16,
+            "room": "Garage",
+            "type": "Door",
+            "state": {
+                "status": "CLOSED",
+                "lastOpened": "2023-08-02T09:15:00Z"
+            }
+        },
+        {
+            "id": 17,
+            "room": "Living Room",
+            "type": "Window",
+            "state": {
+                "status": "OPEN",
+                "lastOpened": "2023-08-02T10:30:00Z"
+            }
+        },
+        {
+            "id": 18,
+            "room": "Kitchen",
+            "type": "Window",
+            "state": {
+                "status": "CLOSED",
+                "lastOpened": "2023-08-01T15:45:00Z"
+            }
+        },
+        {
+            "id": 19,
+            "room": "Bedroom",
+            "type": "Window",
+            "state": {
+                "status": "CLOSED",
+                "lastOpened": "2023-08-01T18:30:00Z"
+            }
+        },
+        {
+            "id": 20,
+            "room": "Bathroom",
+            "type": "Window",
+            "state": {
+                "status": "OPEN",
+                "lastOpened": "2023-08-02T12:00:00Z"
+            }
+        },
+        {
+            "id": 21,
+            "room": "Garage",
+            "type": "Window",
+            "state": {
+                "status": "CLOSED",
+                "lastOpened": "2023-08-02T14:30:00Z"
+            }
+        },
+        {
+            "id": 22,
+            "room": "Living Room",
+            "type": "Light",
+            "state": {
+                "status": "OFF",
+                "brightness": 0
+            }
+        },
+        {
+            "id": 23,
+            "room": "Kitchen",
+            "type": "Light",
+            "state": {
+                "status": "ON",
+                "brightness": 70
+            }
+        },
+        {
+            "id": 24,
+            "room": "Bedroom",
+            "type": "Light",
+            "state": {
+                "status": "OFF",
+                "brightness": 0
+            }
+        },
+        {
+            "id": 25,
+            "room": "Garden",
+            "type": "Automatic Watering System",
+            "state": {
+                "status": "ON",
+                "lastWatered": "2023-07-30T08:00:00Z",
+                "nextWatering": "2023-07-31T08:00:00Z"
+            }
+        },
+        {
+            "id": 26,
+            "room": "Living Room",
+            "type": "Air Quality Monitor",
+            "state": {
+                "qualityIndex": 35,
+                "lastUpdated": "2023-07-30T12:00:00Z"
+            }
+        },
+        {
+            "id": 27,
+            "room": "Kitchen",
+            "type": "Smart Fridge",
+            "state": {
+                "status": "ON",
+                "temperature": 4,
+                "items": [
+                    {
+                        "name": "Milk",
+                        "expiryDate": "2023-08-10"
+                    },
+                    {
+                        "name": "Eggs",
+                        "expiryDate": "2023-08-01"
+                    }
+                ]
+            }
+        },
+        {
+            "id": 28,
+            "room": "Garage",
+            "type": "Electric Car Charger",
+            "state": {
+                "status": "OFF",
+                "charging": false,
+                "lastCharged": "2023-07-29T20:00:00Z"
+            }
+        },
+        {
+            "id": 29,
+            "room": "Bedroom",
+            "type": "Sleep Tracker",
+            "state": {
+                "lastSleepScore": 80,
+                "lastSleepDuration": "8h 10m",
+                "lastUpdated": "2023-07-30T08:30:00Z"
+            }
+        }
+    ]
+}
